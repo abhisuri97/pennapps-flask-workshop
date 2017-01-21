@@ -1,0 +1,17 @@
+{{ my_string }}
+
+{% macro render_field(field) %}
+<p> {{ field.label }} </p>
+{{ field(**kwargs) | safe }}
+{% if field.errors %}
+<ul style = "color: red">
+  {% for error in field.errors %}
+    <li>{{ error }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+{% endmacro %}
+<form method="post">
+  {{ render_field(form.name) }}
+  <p><input type="submit" value="Submit your name"></p>
+</form>
