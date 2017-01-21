@@ -14,4 +14,4 @@ def index():
 app.secret_key = "Little bobby drop tables"
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
