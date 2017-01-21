@@ -1,8 +1,10 @@
 # PennApps XV Flask Workshop
 
-## What this is
+### A really really simple 10 minute demo of routes, forms, and templates in flask.
 
-A really really simple 10 minute demo of routes, forms, and templates in flask.
+* Uses Flask (of course) for serving routes
+* Jinja for templating
+* wtforms for forms
 
 <p align="center">
   <img src="readme.gif" height=500>
@@ -19,6 +21,3 @@ Run `source venv/bin/activate`
 Run `pip install -r requirements.txt`
 
 Run `python app/__init__.py` you can access the app at `http://localhost:5000`
-
-
-...That's all folks
