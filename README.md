@@ -12,6 +12,8 @@ Run `virtualenv venv`
 
 Run `source venv/bin/activate`
 
+Run `pip install requirements.txt`
+
 Run `python app/__init__.py` you can access the app at `http://localhost:5000`
 
 
